@@ -20,14 +20,23 @@ A Typical React Redux Flow.
 
 a) Declare pure functions aka reducers which would take an action and return a new state.
    (purity and immutability the key crux of REDUX). src/reducers/
+
 b) Combine all reducers. src/reducers/index.js
+
 c) Create a store using this combined reducer. src/index.js
+
 d) Create all necessary components. src/components
+
 e) Create a container that would link these components with the store created in step c
+
 d) Have a main component where all the containers would be included. src/components/JSX
+
 e) Include this main component in our entry file. src/index.js
+
 f) Attach store to our main component by enclosing it inside Provider tag. src/index.js
+
 g) Mount the component(class or function) returned in the above step to appropriate DOM element.
+
 
 Happy Coding. :)
 Do suggest any changes.
